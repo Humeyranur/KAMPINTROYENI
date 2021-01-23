@@ -10,7 +10,7 @@ namespace DegerveReferansTipler
             int sayi2 = 30;
             sayi1 = sayi2;
             sayi2 = 65;
-            Console.WriteLine(sayi1);   //sayi1= 30 olur
+            Console.WriteLine(sayi1);   //sayi1= 30 olur.
 
 
 
