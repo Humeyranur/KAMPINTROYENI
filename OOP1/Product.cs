@@ -5,7 +5,7 @@ using System.Text;
 namespace OOP1
 {
     //snippet
-    class Product
+    class Product //entity-- bu tip classlarda sadece özellik olur.
     {
         public int Id { get; set; }
         public int CategoryId { get; set; }
@@ -13,6 +13,6 @@ namespace OOP1
         public double UnitPrice { get; set; }
         public int UnitsInStock { get; set; }
 
-        //CRUD create read update delete
+        //CRUD create read update delete operasyonları
     }
 }

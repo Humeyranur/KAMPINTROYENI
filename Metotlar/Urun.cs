@@ -6,7 +6,7 @@ namespace Metotlar
 {
     class Urun
     {
-        //property
+        //property-özellik
         public int Id { get; set; }
         public string Adi { get; set; }
 

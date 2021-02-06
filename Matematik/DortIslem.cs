@@ -6,10 +6,11 @@ namespace Matematik
 {
     class DortIslem
     {
-        public void Topla(int sayi1,int sayi2)
+        //METOT OLUŞTUR
+        public void Topla(int sayi1,int sayi2)// topla metodunu kullanmak için ihtiyacımız olan şeyleri yazarız. Ürunü sepete eklemek içinde hangi ürün olduğunu bilmek gerekir. 
         {
             int toplam = sayi1 + sayi2;
-            Console.WriteLine("sonuç: "+ toplam);
+            Console.WriteLine("Sonuç: " + toplam);
         }
     }
 }
