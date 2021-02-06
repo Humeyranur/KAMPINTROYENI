@@ -25,6 +25,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ödevdeneme", "ödevdeneme\ödevdeneme.csproj", "{4A6A774D-8217-4C04-BD89-3282B9D6A2C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetotlarCalisma", "MetotlarCalisma\MetotlarCalisma.csproj", "{ED9186DE-C583-4711-816A-BA3790561D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{01946E56-FF73-43BD-A9FC-B4026661C5BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{4A6A774D-8217-4C04-BD89-3282B9D6A2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6A774D-8217-4C04-BD89-3282B9D6A2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6A774D-8217-4C04-BD89-3282B9D6A2C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9186DE-C583-4711-816A-BA3790561D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9186DE-C583-4711-816A-BA3790561D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9186DE-C583-4711-816A-BA3790561D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9186DE-C583-4711-816A-BA3790561D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01946E56-FF73-43BD-A9FC-B4026661C5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01946E56-FF73-43BD-A9FC-B4026661C5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01946E56-FF73-43BD-A9FC-B4026661C5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01946E56-FF73-43BD-A9FC-B4026661C5BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
