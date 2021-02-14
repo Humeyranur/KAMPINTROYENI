@@ -21,8 +21,13 @@ namespace OOP1
             //PascalCase   //camelCase
             ProductManager productManager = new ProductManager();
             productManager.Add(product1);
+
             Console.WriteLine(product1.ProductName);  // referans tip olduğu için adresteki değeri okur ve masa yerine kamera yazar.
 
+            productManager.Update(product2);
+            
+
+           
             /* int sayi = 100;
              productManager.BiseyYap(sayi);
              Console.WriteLine(sayi); */  // int değer tip olduğu için değeri verdiğin an bağlantı kesilir ve 100 değerini alır.

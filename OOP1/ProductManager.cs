@@ -11,15 +11,15 @@ namespace OOP1
        //encapsulation 
 
        //ürün eklemeyi simüle etmek
-        public void Add(Product product) //Product türünde bir şey ver demek. string isim gibi 
+        public void Add(Product product) //İMZA- Product türünde bir şey ver demek. string isim gibi 
         {
-            // product.ProductName = "Kamera";
+            //product.ProductName = "Kamera";
             Console.WriteLine(product.ProductName + "eklendi");
         }
 
         public void Update (Product product)
         {
-            Console.WriteLine(product.ProductName + "güncellendi");
+            Console.WriteLine(product.CategoryId +" " + "güncellendi");
         }
 
       /* public int Topla(int sayi1, int sayi2) // VOID KULLANIMI
@@ -27,7 +27,7 @@ namespace OOP1
             return sayi1 + sayi2;
         }
 
-        public void Topla2(int sayi1, int sayi2) //void git yap bitir demek.programın akışında değer lazımsa tekrar kullanılmaz.void ile return kullanılmaz
+        public void Topla2(int sayi1, int sayi2) //void git yap bitir demek.programın akışında değer lazımsa tekrar kullanılmaz.void ile return kullanılmaz sonuç console ile getirilir.
         {
             Console.WriteLine( sayi1 + sayi2);
         }

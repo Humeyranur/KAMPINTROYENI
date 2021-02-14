@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOP2
+namespace OOP2 //object oriented programming
 {
     class Musteri
     {
+
+        public int Id { get; set; }
+        public string MusteriNo { get; set; }
+        //eğer bir nesnede kullanılmayan alan varsa soyutlamada hata var demektir.
     }
 }
