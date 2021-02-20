@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Constructor // bir claası new lediğimizde çalışan bloktur. İlk kez çalıştırdığımızda yapılandıran blok.
+namespace Constructor // bir classı new lediğimizde çalışan bloktur. İlk kez çalıştırdığımızda yapılandıran blok.
 {
     class Program
     {
